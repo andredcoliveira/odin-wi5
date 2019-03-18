@@ -26,11 +26,3 @@ It has a bug: line 46 says
 
 But it should say
 `+	.open = simple_open,`
-
-Improved versions by fgg89
---------------------------
-And it was improved by fgg89: https://github.com/fgg89/odin-utilities
-
-In this repository you will find the ath5k, the ath9k and the ath9k_htc patches.
-
-The ath9k has the same bug than the original of Lalith Suresh.
