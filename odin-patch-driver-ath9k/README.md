@@ -1,9 +1,9 @@
 Odin patch for ath9k driver
 ===========================
 
-This is a patch you must apply at the file debug.c of the aht9k driver.
+This is a patch you must apply at the file `debug.c` of the aht9k driver.
 
-The file is `build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_generic/compat-wireless-2014-05-22/drivers/net/wireless/ath/ath9k/debug.c`
+If you are cross-compilint, the file is located at `build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_generic/compat-wireless-2014-05-22/drivers/net/wireless/ath/ath9k/debug.c`
 
 The idea is that you include some new functions there, in order to modify the mask that allows the AP to send the layer-2 ACKs.
 
